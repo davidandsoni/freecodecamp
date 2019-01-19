@@ -1,0 +1,61 @@
+body{
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    font-size:50px;
+    text-align: center;
+}
+#main > p{
+    font-size:25px;
+    text-align: center;
+
+}
+
+
+#image{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+figcaption{
+    background-color: rgb(194, 179, 152);
+    font-size: 20px;
+    text-align:center;
+    padding: 10px;
+}
+
+#tribute-link{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 10px auto;
+}
+
+caption{
+    font-weight: bold;
+}
+
+
+tr,td,th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+dt{
+    font-weight: bold;
+}
+
+th,tr:nth-of-type(even){
+    background-color: beige;
+}
+
+
+
