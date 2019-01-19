@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+form {
+    border: 1px solid goldenrod;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+fieldset {
+    border: none;
+}
+
+
+input {
+    border: 1px solid orchid;
+    display: inline-block;
+    width: 50%;
+}
+
+label{
+    display: inline-block;
+    text-align: right;
+    width: 300px;
+}

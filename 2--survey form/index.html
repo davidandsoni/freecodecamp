@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1 id="title">SURVEY FORM</h1>
+    <p id="description">suggestion form</p>
+
+    <form id="survey-form">
+        <div id="design">
+            <label id="name-label" for="name">Name:</label>
+            <input id="name" type="text" name="username" placeholder="David Shrestha"required>
+        </div>
+
+        <div id="design">
+            <label id="email-label" for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="abc@hotmail.com" required>
+        </div>
+        <div id="design">
+            <label id="number-label" for="number">Number</label>
+            <input id="number" type="tel" name="number" placeholder="0032-465612345" required>
+        </div>
+
+        <div id="design">
+            <label for="birthday" id="birthdate">Birthdate:<input type="date" name="birthday" id="birthday"> </label>
+        </div>
+        <div id="design">
+            <label for="birthtime" id="birthtime">Birthtime:<input type="time" name="birthday" id="birthtime"> </label>
+        </div>
+
+        <div id=design>
+            <fieldset>
+                <legend>What is your level of education?</legend>
+
+
+                <label for="education1"><input id="education1" type="radio" name="education" value="less than high school">less than high school</label><br>
+
+                <label for="education2"> <input id="education2" type="radio" name="education" value="High school">High school</label><br>
+
+                <label for="education3"><input id="education3" type="radio" name="education" value="Bacholer"> Bacholer</label><br>
+
+                <label for="education4"><input id="education4" type="radio" name="education" value="Masters">Masters</label>
+            </fieldset>
+        </div>
+
+        <div id="design">
+            <label>What is your profession?</label>
+            <select id="dropdown">
+                <option value="Doctor">Doctor</option>
+                <option value="Engineer">Engineer</option>
+                <option value="Accountant">Accountant</option>
+                <option value="Developer">Developer</option>
+                <option value="Economist">Economist</option>
+                <option value="Mathmatican">Mathmatican</option>
+                <option value="Other">Other</option>
+            </select>
+
+        </div>
+
+        <div id="design">
+            <fieldset>
+                <legend>What is your hobby?</legend>
+
+
+                <label for="hobby1"><input id="hobby1" type="checkbox" name="hobby">singingl</label><br>
+
+                <label for="hobby2"> <input id="hobby2" type="checkbox" name="hobby">dancing</label><br>
+
+                <label for="hobby3"><input id="hobby3" type="checkbox" name="hobby">music</label><br>
+
+                <label for="hobby4"><input id="hobby4" type="checkbox" name="hobby">travel</label>
+            </fieldset>
+        </div>
+
+        <div id="design">
+            <label for="suggestion">Any suggestion:<textarea id="suggestion" name="suggestion" col="300" rows="10"></textarea></label>
+        </div>
+
+        <button id="submit">submit</button>
+
+
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>
